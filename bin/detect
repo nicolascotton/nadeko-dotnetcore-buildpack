@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+
+echo "ASP.NET Core"
+exit 0
+
