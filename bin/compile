@@ -58,7 +58,7 @@ echo ""
 echo "Restoring done"
 
 echo "Building NadekoBot"
-cd $root/$tempdir/NadekoBot/src/NadekoBot/
+cd $BUILD_DIR/NadekoBot/src/NadekoBot/
 dotnet build --configuration Release 1>/dev/null 2>&1
 echo ""
 echo "Installation Complete."
