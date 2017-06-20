@@ -28,7 +28,7 @@ function install_dotnet() {
 
  if [[ "${DOTNET_VERSION}" == "latest" ]]
  then
-  DOTNET_PATH="https://dotnetcli.blob.core.windows.net/dotnet/preview/Binaries/Latest/dotnet-ubuntu-x64.latest.tar.gz"
+  DOTNET_PATH="http://go.microsoft.com/fwlink/?LinkID=798306&clcid=0x409"
  else
   DOTNET_PATH="https://dotnetcli.blob.core.windows.net/dotnet/preview/Binaries/${DOTNET_VERSION}/dotnet-dev-ubuntu-x64.${DOTNET_VERSION}.tar.gz"
  fi
