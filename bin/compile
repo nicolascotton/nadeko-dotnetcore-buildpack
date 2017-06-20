@@ -20,7 +20,7 @@ BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 # latest < default
 # now using - latest
 
-DOTNET_VERSION="1.0.0-preview2-1-003177" # TODO make it be got from project.json
+DOTNET_VERSION="latest" # TODO make it be got from project.json
 NODE_VERSION="6.9.1"
 
 mkdir -p $BUILD_DIR/.profile.d
